@@ -35,7 +35,7 @@ this.destroy = function() {
 
 function CharacterStats(stats) {
   GameObject.call(this, stats);
-  this.hp = stats.hp,
+  this.healthPoints = stats.healthPoints,
   this.name = stats.name,
   this.takeDamage = function () {
     return `${this.name} took damage`;
